@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tutoriels de qualité pour Symfony et autre</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="custom-background-404">
+    <div class="wrapper404">
+                <h1 class="custom-display">Alors déjà...pourquoi<p class="custom-h2">3</p></h1>
+                
+                <p class="custom-lead">Symfony est magique donc oublie la saison 6, ou 7, je ne sais plus, plus besoin de créer dans ton controller une function pour les error404.</p>
+
+                <p class="custom-p">Mais voila, petit problème, tu auras besoin de "simuler" dans ton url une erreur 404 pour voir le résultat, taper kjbazefhkbfjezjfb derrière n'importe quelle route fonctionnelle de ton site ne marchera pas, Symfony te dira gentiment que cette route n'existe pas.</p>
+
+                <img src="t-ou.png" alt="url not found">
+
+                <p class="custom-lead">Pour commencer, ouvre ton terminal et envoie la commande suivante:</p>
+                <img src="logobatman.png" alt="logo batman">
+
+                <p class="custom-lead">Ensuite, tu vas créer un sous-dossier bundles dans ton dossier templates, puis un sous-dossier
+                     TwigBundle de ton dossier bundles PUIIIIS un sous-dossier Exception de ton dossier TwigBundles...et ENFIN tu peux créer ton fichier error404.html.twig associé au dossier Exception.</p>
+                <div class="batmané">
+                <img src="dossiers.png" alt="breacking bad Image">
+                <img src="dossier.gif" alt="gif dossier">
+                </div>
+                <p class="custom-lead">Dans ton fichier error404.html.twig, tu peux y mettre ça pour tester:</p>
+
+                <img src="pageerror404.png" alt="page error 404">
+
+                <p class="custom-lead">Pour finir, il faut aller dans ton url et à la fin y ajouter /_error/404</p>
+                <img src="url404.png" alt="url 404">
+                <p class="custom-lead">ton template s'affiche, bravo.</p>
+                <p class="custom-lead">Tu veux une autre façon de faire? Va dans ton fichier .env et au lieu de mettre APP_ENV=dev, tu mets APP_ENV=prod</p>
+                <img src="envdev.png" alt="env dev">
+                <img src="envprod.png" alt="env prod">
+                <p class="custom-lead">ensuite tu ouvres ton terminal et tu clear le cache, tiens: <code class="commande">php bin/console cache:clear</code>,
+                    concrètement qu'est-ce que tu as fais là? Tu as simulé la mise en prod de ton site,
+                    maintenant tu peux taper n'importe quel URL à la racine de ton projet:
+                    <img src="urlprod.png" alt="env prod">
+                    ton template error 404 s'affichera. Voila, au revoir.<p class="custom-h2">q</p>
+                    <div class="comics-container">
+                        <p class="comics logo-left">a</p>
+                        <a href="index.html" class="custom-link">revenir à la page d'accueil</a>
+                        <p class="comics logo-right">d</p>
+                    </div>
+            </div>
+        </body>
+
+</html>

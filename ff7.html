@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Documentation Symfony - Entités et Relations</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="final">
+    
+    <div class="ff7">
+        <h1>Max</h1>
+        <p>&ldquo;Hé, camarade ! On va créer des entités coriaces et forger des relations puissantes pour mettre une raclée à la Shinra !&rdquo;</p>
+      </div>
+    <h1 class="final1">Documentation Symfony - Entites et Relations</h1>
+
+    <h2 class="final2">Introduction</h2>
+    <p class="clad">
+        Bienvenue dans la documentation sur les entités et les relations avec Symfony et MySQL.
+        Cette documentation couvre les concepts fondamentaux liés à la gestion des entités et des relations dans une application Symfony.
+    </p>
+
+    <h2 class="final2">EntItes</h2>
+    <p>
+        En Symfony, une entité est une classe PHP qui correspond à une table dans la base de données.
+        Chaque entité représente une instance unique d'une entité dans la base de données.
+    </p>
+    <pre><code>php
+/**
+ * @ORM\Entity
+ * @ORM\Table(name="product")
+ */
+class Product
+{
+    // Propriétés et méthodes de l'entité
+}
+    </code></pre>
+
+    <h2>Relations</h2>
+    <p>
+        Symfony propose différents types de relations entre les entités, y compris les relations ManyToOne, OneToMany, ManyToMany, etc.
+        Ces relations permettent de lier différentes entités et de définir des associations entre elles.
+    </p>
+    <pre><code>php
+/**
+ * @ORM\Entity
+ */
+class Order
+{
+    /**
+     * @ORM\ManyToOne(targetEntity="Product")
+     * @ORM\JoinColumn(name="product_id", referencedColumnName="id")
+     */
+    private $product;
+
+    // Autres propriétés et méthodes
+}
+    </code></pre>
+
+    <!-- Ajoute d'autres sections au besoin -->
+
+</body>
+</html>

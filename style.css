@@ -1,0 +1,487 @@
+@import url('https://fonts.cdnfonts.com/css/heart-breaking-bad');
+@import url('https://fonts.cdnfonts.com/css/batman-forever');
+@import url('https://fonts.cdnfonts.com/css/manga-temple');
+@import url('https://fonts.cdnfonts.com/css/chopinscript');
+@import url('https://fonts.cdnfonts.com/css/hahmlet');
+@import url('https://fonts.cdnfonts.com/css/warownia');
+@import url('https://fonts.cdnfonts.com/css/comic-fx');
+@import url('https://fonts.cdnfonts.com/css/batman-the-dark-knight');
+@import url(https://db.onlinewebfonts.com/c/3f67bb715e8ad67bf1360e05f17c2ff6?family=Final+Fantasy+Script+Collection+-+Final+Fantasy+VII);
+@import url('https://fonts.cdnfonts.com/css/final-fantasy');
+/* page d'accueil */
+
+body.custom-background {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    margin: 0;
+}
+
+.wrapper {
+    text-align: center;
+    margin: 3rem 20rem 3rem 20rem;
+}
+
+.titre {
+    font-family: 'Heart Breaking Bad', sans-serif;
+    font-size: 4rem;
+    color: #ffffff;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6);
+    margin-bottom: 4rem;
+    margin-top: 1rem;
+    animation: bounceInDown 2s;
+    animation-duration: 2s;
+}
+
+.img img {
+    width: 100%; 
+    max-width: 40rem;
+    margin-bottom: 2rem; 
+}
+
+.paragraphe1 {
+    font-family: 'Heart Breaking Bad', sans-serif;
+    font-size: 3rem;
+    margin-top: 20px; 
+    
+}
+
+.custom-background {
+    background: linear-gradient(to bottom right, #0A4937, #006822);
+    color: #fff; 
+    
+}
+
+.paragraphe1 a {
+    display: inline-block;
+    padding: 10px 20px; 
+    margin: 10px 0; 
+    color: #fff;
+    text-decoration: none;
+    border: 2px solid #fff; 
+    border-radius: 8px; 
+}
+
+.paragraphe1 a:hover {
+    background-color: #fff; /* Couleur de fond lors du survol */
+    color: #0A4937; /* Couleur du texte lors du survol */
+}
+
+/*batman 404*/
+
+body {
+    font-family: 'Warownia', sans-serif;
+    font-size: 2rem;
+}
+
+body.custom-background-404 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    background: #07090E; 
+    color: #fff;
+}
+
+
+.wrapper404 {
+    text-align: center;
+}
+
+.custom-display {
+    font-size: 7rem;
+    font-family: 'BatmanForeverOutline', sans-serif;
+    color: #fff;
+    margin-bottom: 20vh;
+
+}
+
+.custom-h2 {
+    font-size: 3rem;
+    font-family: 'Batman The Dark Knight', sans-serif;
+    color: #fff;
+    
+
+}
+
+.custom-link {
+    font-family: 'BatmanForeverOutline', sans-serif;
+    display: inline-block;
+    padding: 1rem 2rem;
+    margin-top: 2rem;
+    color: #fff;
+    text-decoration: none;
+    border: 0.2rem solid #fff;
+    border-radius: 0.8rem;
+}
+
+.custom-link:hover {
+    background-color: #fff;
+    color: #07090E;
+}
+
+.custom-lead {
+    font-family: 'Warownia', sans-serif;
+    color: #fff;
+    font-size: 2rem;
+    letter-spacing: 0.2rem;
+}
+
+.custom-p {
+    font-family: 'Warownia', sans-serif;
+    color: #fff;
+    font-size: 2rem;
+    letter-spacing: 0.2rem;
+}
+
+.batmané {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start; 
+}
+
+.batmané img {
+    margin-right: 1rem; 
+}
+
+.imgjoker {
+    width: 10rem; 
+    height: 4rem; 
+}
+
+.code {
+    font-family: 'Hahmlet', sans-serif;
+    font-size: 2rem;
+    color: #E8C80D;
+    background-color: black;
+    padding: 1rem;
+    border-radius: 0.5rem;
+}
+
+.commande {
+    font-family: 'Hahmlet', sans-serif;
+    font-size: 1rem;
+    color: #E8C80D;
+    background-color: black;
+    padding: 1rem;
+    border-radius: 0.5rem;
+}
+.comics-container {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+
+.comics {
+    font-family: 'Comic FX', sans-serif;
+    font-size: 20rem;
+    
+}
+
+
+
+.logo-left {
+    margin-right: 10px;
+    font-size: 3rem; 
+}
+
+.logo-right {
+    margin-left: 10px;
+    font-size: 3rem; 
+}
+
+@media screen and (max-width: 768px) {
+    .wrapper,
+    .container,
+    .left-column,
+    .right-column {
+        margin: 1rem;
+    }
+    
+    .titre {
+        font-size: 2rem;
+    }
+    
+    .paragraphe1 {
+        font-size: 2rem;
+    }
+    
+    .custom-link {
+        font-size: 2rem;
+    }
+    
+    .custom-lead,
+    .custom-p {
+        font-size: 2rem;
+    }
+    
+    .img img {
+        max-width: 100%;
+        max-height: 20rem;
+    }
+    
+    .batmané img {
+        margin-right: 0.5rem;
+    }
+    
+    .imgjoker {
+        width: 5rem;
+        height: 2rem;
+    }
+    
+    /* Ajout de styles pour le mode téléphone */
+    body.custom-background {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        min-height: 100vh;
+        margin: 0;
+        font-size: 1.5rem;
+    }
+    
+    .wrapper {
+        margin: 1rem;
+    }
+    
+    .titre {
+        font-size: 3rem;
+    }
+    
+    .paragraphe1 {
+        font-size: 2.5rem;
+    }
+    
+    .custom-link {
+        font-size: 2.5rem;
+    }
+    
+    .custom-lead,
+    .custom-p {
+        font-size: 2.5rem;
+    }
+    
+    .img img {
+        max-height: 15rem;
+    }
+    
+    .batmané img {
+        margin-right: 0.3rem;
+    }
+    
+    .imgjoker {
+        width: 3rem;
+        height: 1.5rem;
+    }
+}
+
+
+/* racaille blues github */
+
+body {
+    font-family: 'Manga Temple', sans-serif; 
+    margin: 0;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    min-height: 100vh;
+}
+
+.left-column {
+    margin: 3rem;
+    width: 50rem; 
+}
+
+.right-column {
+    margin: 3rem;
+    flex: 1;
+}
+
+.center-column {
+    text-align: center;
+    
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+.custom-github {
+    color: red;
+}
+
+@media screen and (max-width: 768px) {
+    .container {
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .left-column,
+    .right-column {
+        margin: 1rem;
+        width: auto;
+    }
+}
+
+/* chopin commandes Symfony */
+
+.chopin {
+    font-family: 'ChopinScript', sans-serif;
+    text-align: center;
+    padding: 50px;
+}
+
+code {
+    background-color: #ecf0f1;
+    padding: 5px;
+    border-radius: 0.2rem 0.5rem;
+    font-family: 'Hahmlet', sans-serif;
+    font-size: 2rem;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    font-size: 2rem;
+    font-family: 'Hahmlet', sans-serif;
+}
+
+li {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+li::before {
+    content: "\2022";
+    color: #A42014;
+    margin-right: 10px;
+    font-size: 2rem;
+}
+
+.chopin1 {
+    font-size: 4rem;
+    color: #A42014;
+}
+
+.custom-chopin {
+    background: #F5F5F5;
+    color: #000;
+}
+
+@media screen and (max-width: 768px) {
+    .chopin {
+        padding: 20px;
+    }
+    
+    code {
+        font-size: 2rem;
+    }
+    
+    ul {
+        font-size: 2rem;
+    }
+    
+    li::before {
+        font-size: 1.5rem;
+    }
+    
+    .chopin1 {
+        font-size: 3rem;
+    }
+}
+
+/* entités relation symfony*/
+
+.final{
+    background-color: white;
+    background-image: url(http://i4.ytimg.com/vi/s1AtwwyxMKc/maxresdefault.jpg);
+    background-repeat: no-repeat;
+    background-position: -150px 0;
+  }
+  div.ff7{
+    border: solid 1px #424542;
+    box-shadow: 1px 1px #e7dfe7,
+                -1px -1px #e7dfe7,
+                1px -1px #e7dfe7,
+                -1px 1px #e7dfe7,
+                0 -2px #9c9a9c,
+                -2px 0 #7b757b,
+                0 2px #424542;
+    width: 500px;
+    padding: 5px 10px;
+    margin: 80px 50px;
+    position: relative; /* Position relative pour l'alignement */
+    top: 80%; /* centrage vertical à 50% de la hauteur de la fenêtre */
+    left: 50%; /* centrage horizontal à 50% de la largeur de la fenêtre */
+    transform: translate(-50%, -50%);
+
+    background: #04009d;
+    background: -moz-linear-gradient(top,  #04009d 0%, #06004d 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#04009d), color-stop(100%,#06004d));
+    background: -webkit-linear-gradient(top,  #04009d 0%,#06004d 100%);
+    background: -o-linear-gradient(top,  #04009d 0%,#06004d 100%);
+    background: -ms-linear-gradient(top,  #04009d 0%,#06004d 100%);
+    background: linear-gradient(to bottom,  #04009d 0%,#06004d 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#04009d', endColorstr='#06004d',GradientType=0 );
+  
+  
+    -webkit-border-radius: 7px;
+    -moz-border-radius: 7px;
+    border-radius: 7px;
+  }
+  div.ff7 *{
+    color: #eff1ff;
+    text-shadow: 2px 2px #212421,
+                 1px 1px #212021;
+    font-family: Verdana, sans-serif;
+    font-size: 20px;
+    font-weight: normal;
+    margin: 5px 0;
+  }
+
+.final1 {
+    font-family: 'Final Fantasy Script Collection - Final Fantasy VII', sans-serif;
+    font-size: 7;
+    text-align: center;
+    margin-bottom: 20px;
+
+}
+
+.final2 {
+    font-family: 'Final Fantasy Script Collection - Final Fantasy VII', sans-serif;
+    font-size: 5rem;
+    
+    margin-bottom: 20px;
+
+}
+
+.clad {
+    font-family: 'Final Fantasy', sans-serif;
+    font-size: 2rem;
+    
+    margin-bottom: 20px;
+
+}
+
+code {
+    background-color: #f4f4f4;
+    padding: 2px 4px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-family: monospace;
+}
+
+pre {
+    background-color: #f8f8f8;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    overflow: auto;
+}
